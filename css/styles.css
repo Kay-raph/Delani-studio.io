@@ -1,0 +1,289 @@
+.im {
+    background-image: url("sh.jpg");
+    background-attachment: scroll;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.cont {
+    text-align: center;
+    color: white;
+}
+
+.fo {
+    font-size: smaller;
+}
+
+.h2h {
+    background-color: wheat;
+    text-align: center;
+}
+.h2h p{
+    font-weight: bold;
+}
+.h3{
+    text-align: center;
+}
+.serv {
+    background-image: url("s_image.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: fixed;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+
+.col {
+    color: rgb(12, 10, 10);
+}
+
+.row {
+    columns: 3;
+    align-self: auto;
+}
+
+p1,
+p2,
+p3 {
+    display: none;
+}
+
+h8 {
+    font-size: x-large;
+    font-style: bold;
+}
+
+* {
+    box-sizing: border-box;
+    height: auto;
+}
+
+/* Float four columns side by side */
+.column1 {
+    float: left;
+    width: 25%;
+    padding: 0 10px;
+}
+
+.column2 {
+    float: left;
+    width: 25%;
+    padding: 0 10px;
+}
+
+/* Remove extra left and right margins, due to padding */
+.row1 {
+    margin: 0 150px;
+}
+
+.row2 {
+    margin: 0 150px;
+}
+
+/* Clear floats after the columns */
+.row1:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.logo {
+    transition: 1s ease;
+    opacity: 0;
+    position: absolute;
+    text-align: center;
+    position: relative;
+    bottom: 50px;
+    color: aqua;
+    font-size: x-large;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    -webkit-transition: 1s ease;
+    -moz-transition: 1s ease;
+    -ms-transition: 1s ease;
+    -o-transition: 1s ease;
+}
+
+.imeg {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    transition: all 1s ease-in-out;
+    -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -ms-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+}
+
+.imeg .logo {
+    display: none;
+    transition: ease-in-out 1s;
+    -webkit-transition: ease-in-out 1s;
+    -moz-transition: ease-in-out 1s;
+    -ms-transition: ease-in-out 1s;
+    -o-transition: ease-in-out 1s;
+}
+.kontain img{
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+.kontain:hover .imeg {
+    border-radius: 5px;
+    opacity: 0.5;
+    -ms-transform: scale(1.5);
+    /*IE9*/-webkit-transform: scale(1.5);
+    /*Safari3-8*/transform: scale(1.5);
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.kontain:hover .logo {
+    opacity: 1;
+     transition: ease-in-out 1s;
+    -webkit-transition: ease-in-out 1s;
+    -moz-transition: ease-in-out 1s;
+    -ms-transition: ease-in-out 1s;
+    -o-transition: ease-in-out 1s;
+
+}
+
+
+.h9 {
+    text-align: center;
+}
+
+footer {
+    background-color: black;
+    margin-top: 20px;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+}
+
+.footer a{
+    display: inline-block;
+    margin: 5px;
+}
+
+
+.form-row {
+    margin: 0 150px;
+}
+
+.submit {
+    float: left;
+    border-radius: 4px;
+    margin: 0 150px;
+}
+
+#messageInput {
+    background-color: transparent;
+    color: white;
+}
+
+#nameInput {
+    background-color: transparent;
+    color: white;
+}
+
+#maill {
+    background-color: transparent;
+    color: white;
+}
+
+#btn {
+    color: aqua;
+}
+
+/* Responsive columns */
+@media screen and (max-width: 500px) {
+   
+   .logo {
+    transition: 1s ease;
+    opacity: 0;
+    position: absolute;
+    text-align: center;
+    position: relative;
+    bottom: 50px;
+    color: black;
+    font-size: small;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    -webkit-transition: 1s ease;
+    -moz-transition: 1s ease;
+    -ms-transition: 1s ease;
+    -o-transition: 1s ease;
+}
+ .column1 {
+    float: left;
+    width: 50%;
+    padding: 10px;
+}
+.column2 {
+    float: left;
+    width: 50%;
+    padding: 10px;
+}
+.row1 {
+    margin: auto;
+}
+
+.row2 {
+    margin: auto;
+}
+
+/* Clear floats after the columns */
+.row1:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+    .imeg {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    transition: all 3s ease-in-out;
+    -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -ms-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+}
+.kontain:hover .imeg {
+    border-radius: 5px;
+    opacity: 0.5;
+    -ms-transform: scale(1.2);
+    /*IE9*/-webkit-transform: scale(1.2);
+    /*Safari3-8*/transform: scale(1.2);
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.form-row {
+    width: 100%;
+    margin-left: 0;
+}
+.submit {
+     margin-left: 5px;
+    border-radius: 4px;
+}
+.footer{
+    background-color: black;
+    opacity: 0.6;
+    bottom: 0;
+    width: 100%;
+}
+.footer a{
+    display: inline-block;
+    margin: 2px;
+}
+
+}
